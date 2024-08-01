@@ -1,6 +1,7 @@
 spring:
   application:
     name: spring-boot-service-registry
+
 server:
   port: 8082
 
