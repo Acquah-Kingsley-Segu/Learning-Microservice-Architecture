@@ -1,9 +1,9 @@
 server:
-  port: 8080
+  port: ${SERVER_PORT}
 
 spring:
   application:
-    name: spring-boot-config-server
+    name: ${SERVER_NAME}
   profiles:
     active: dev
   #    active: native - used when the config files exist in the config server's file system

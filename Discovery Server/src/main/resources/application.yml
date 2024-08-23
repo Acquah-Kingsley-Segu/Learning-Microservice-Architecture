@@ -1,19 +1,7 @@
 spring:
-  application:
-    name: spring-boot-service-registry
-  profiles:
-    active: dev
   cloud:
     config:
       enabled: true
-  config:
-    import: optional:configserver:http://localhost:8080
 
 server:
-  port: 8082
-
-
-eureka:
-  client:
-    register-with-eureka: false
-    fetch-registry: false
+  port: ${SERVER_PORT}
