@@ -1,11 +1,2 @@
 server:
   url: 127.0.0.1:8082/dev
-
-eureka:
-  instance:
-    hostname: localhost
-  client:
-    registerWithEureka: false
-    fetchRegistry: false
-    serviceUrl:
-      defaultZone: http://localhost:8082/eureka/
