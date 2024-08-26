@@ -20,7 +20,7 @@ public class ServiceRegistryApplication {
 	@RestController
 	@RefreshScope
 	public static class ServerTypeController {
-		@Value("${eureka.instance}")
+		@Value("${server.url}")
 		private String hostName;
 
 		@RequestMapping("/host")
